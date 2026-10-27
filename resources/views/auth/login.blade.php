@@ -1,2 +1,7 @@
 @extends('layouts.app')
-@section('content')<div class="panel" style="max-width:480px;margin:70px auto"><p class="muted">UNIVERSITY OPERATIONS</p><h1>Sign in</h1><p class="muted">Access your courses, records, and registrations.</p><form method="post" action="{{ route('login.store') }}">@csrf<label>Email</label><input type="email" name="email" value="{{ old('email') }}" required><label>Password</label><input type="password" name="password" required><label><input type="checkbox" name="remember" style="width:auto"> Remember me</label><button class="btn" type="submit">Continue</button></form></div>@endsection
+@section('content')<div class="panel" style="max-width:480px;margin:70px auto">
+    <h1>Sign in</h1>
+    <p class="muted">Access your courses, records, and registrations.</p>
+    <form method="post" action="{{ route('login.store') }}">@csrf<label>Email</label><input type="email" name="email" value="{{ old('email') }}" required><label>Password</label><input type="password" name="password" required><label><input type="checkbox" name="remember" style="width:auto"> Remember me</label><button class="btn" type="submit">Continue</button></form>
+</div>
+@endsection
