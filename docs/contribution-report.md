@@ -2,9 +2,9 @@
 
 Repository: https://github.com/salimkatongole123-collab/Uni_Pilot
 
-| Member | Student number | Assigned task | Feature branch | Pull request | Contribution |
-| --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |
+| Member          | Student number | Assigned task        | Feature branch | Pull request | Contribution |
+| Joel Bagiire    | 2300725576     | Backend development  |                | ---          | ---          |
+| Katongole Salim | 2400715698     | Frontend development |                |              |              |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
