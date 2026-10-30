@@ -7,7 +7,7 @@ Repository: https://github.com/salimkatongole123-collab/Uni_Pilot
 | Nalumansi Tasha | 2300714121 | Backend and frontend development | | | Database migrations, seed data, and dashboard data support |
 | Nabaasa Patience | 2400717534 | Frontend development | | | Student and course management screens and form layout support |
 | Shamilah Kwagala | 2300724684 | Frontend development | | | Authentication screens, navigation, and application interface support |
-| Joel Bagiire | 2300725576 | Backend and frontend development | | | Models, controllers, routes, access control, and interface support |
+| Joel Bagiire | 2300725576 | Backend and frontend development | | | Models, controllers, routes, access control, and interface integration support |
 | Katongole Salim | 2400715698 | Frontend development | | | Login page and application styling |
 
 ## Integration record
