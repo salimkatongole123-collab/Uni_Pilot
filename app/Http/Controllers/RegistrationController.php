@@ -16,6 +16,7 @@ class RegistrationController extends Controller
     {
         $user = Auth::user(); $rules = ['course_id' => ['required', 'exists:courses,id']];
         if ($user->hasRole('student')) { $studentId = $user->student?->id; abort_unless($studentId, 403); } else { $rules['student_id'] = ['required', 'exists:students,id']; $studentId = $request->input('student_id'); }
+        abort_unless($user->hasRole(['admin', 'student']), 403);
         $data = $request->validate($rules);
         if (Registration::where(['student_id' => $studentId, 'course_id' => $data['course_id']])->exists()) return back()->withErrors(['course_id' => 'This student is already registered for that course.']);
         Registration::create(['student_id' => $studentId, 'course_id' => $data['course_id']]);
