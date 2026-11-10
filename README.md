@@ -2,6 +2,16 @@
 
 Laravel application for managing students, courses, lecturers, and course registrations.
 
+## Screenshots
+
+### Course page
+
+![UniPilot course page](./docs/screenshots/course-page.png)
+
+### Student dashboard
+
+![UniPilot student dashboard](./docs/screenshots/student-dashboard.png)
+
 ## Installation
 
 ```bash
