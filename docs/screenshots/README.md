@@ -1,3 +1,11 @@
 # Application Screenshots
 
-Add screenshots of the login page, administrator dashboard, student management, course catalogue, and registration views here before submission.
+The current application screenshots are shown below.
+
+## Course page
+
+![UniPilot course page](./course-page.png)
+
+## Student dashboard
+
+![UniPilot student dashboard](./student-dashboard.png)
